@@ -10,6 +10,8 @@ pool:
   name: WindowsNodePool
   demands:
     - maven
+    - Agent.Version -equals 4.264.2
+
     
 
 
